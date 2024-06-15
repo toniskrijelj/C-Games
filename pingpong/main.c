@@ -144,8 +144,18 @@ void pobedio(int igrac)
     while(getch()!=13);
 }
 
+void hidecursor()
+{
+   HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
+   CONSOLE_CURSOR_INFO info;
+   info.dwSize = 100;
+   info.bVisible = FALSE;
+   SetConsoleCursorInfo(consoleHandle, &info);
+}
+
 int main()
 {
+    hidecursor();
     srand(time(NULL));
     int input,update_counter = 0,kraj_igre = NE;
     Loptica loptica = {39,12};

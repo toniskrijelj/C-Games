@@ -75,7 +75,7 @@ static int score = 0;
 class Pipe
 {
 private:
-    int x, y;
+    int x=0, y=0;
     static int gapSize;
 public:
 
@@ -180,7 +180,7 @@ private:
 
     int numberOfPipes = 0;
     double timeOfLastMovement = 0, timeOfLastSpawn = 0;
-    double timeBetweenMovement, timeBetweenSpawn;
+    double timeBetweenMovement=0, timeBetweenSpawn=0;
     Pipe** pipes = NULL;
 
     void AddPipe()

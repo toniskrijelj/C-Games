@@ -1,0 +1,12 @@
+Name: Toni
+Mode: Fast
+Highscore: 8128
+Lenght: 7.0
+Played Date: Sat Jun 15 23:12:27 2024
+--------------------------------------------------
+Name: Toni2
+Mode: Fast
+Highscore: 32136
+Lenght: 16.0
+Played Date: Sat Jun 15 23:42:10 2024
+--------------------------------------------------
